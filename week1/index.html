@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense tracker demo</title>
+    <script src="main.js" type="module"></script>
+    <style>
+      body {
+        font-size: 1.4em;
+        max-width: 960px;
+        width: 80%;
+        margin: auto;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+
+      .outputBody td {
+        width: 35ch;
+      }
+      .outputBody td + td {
+        width: 7ch;
+        text-align: right;
+        border-left: 1px solid grey;
+      }
+      .new-expense {
+        border-top: 1px solid;
+        padding-top: 0.5em;
+      }
+      .new-expense input {
+        font-size: 1.4rem;
+        width: 35ch;
+      }
+      .new-expense input + input {
+        width: 7ch;
+      }
+      .new-expense button {
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Expense Tracker</h1>
+    <main>
+      <label for="allowInput">Allow Input?</label>
+      <input type="checkbox" name="allowInput" id="allowInput" checked />
+      <section id="output"></section>
+    </main>
+  </body>
+</html>
