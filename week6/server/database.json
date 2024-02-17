@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "d037",
+      "title": "first",
+      "body": "Posting"
+    },
+    {
+      "id": "9aaa",
+      "title": "Joe",
+      "body": "Hello"
+    },
+    {
+      "id": "7d09",
+      "title": "third",
+      "body": "post"
+    },
+    {
+      "id": "42f3",
+      "title": "Fourth",
+      "body": "post"
+    }
+  ]
+}
