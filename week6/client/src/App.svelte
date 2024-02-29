@@ -1,5 +1,6 @@
 <script>
   import AddPost from "./lib/AddPost.svelte";
+  import Counter from "./lib/Counter.svelte";
   import ListPosts from "./lib/ListPosts.svelte";
 </script>
 
@@ -9,6 +10,7 @@
   <div class="card">
     <AddPost/>
     <ListPosts/>
+    <Counter/>
   </div>
 
   <p>
